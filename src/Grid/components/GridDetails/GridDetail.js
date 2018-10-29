@@ -6,7 +6,7 @@ import closeButton from '../../../assets/close-button.png'
 
 const GridDetail = (props) => {
 
-    const {data, keys, closeOverlay, toggleOverlay, id, display} = props
+    const {data, keys, closeOverlay, toggleOverlay, id, display} = props;
     const { value } = data[id].Content;
 
       return (
@@ -27,15 +27,15 @@ const GridDetail = (props) => {
                     <p>{value.subheadline}</p>
                 </div>
                 <div className="photo-info">
-                  <img  src={value.image} alt=""/>
-                  <div className="side-info">
-                    {value.list.map((item, index) => <SideInfo text={item} key={index} /> )}
-                  </div>
+                    <img  src={value.image} alt=""/>
+                    <div className="side-info">
+                      {value.list.map((item, index) => <SideInfo text={item} key={index} /> )}
+                    </div>
                 </div>
             </div>
 
         </div>
       );
-}
+};
 
 export default GridDetail;

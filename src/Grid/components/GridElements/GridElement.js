@@ -9,7 +9,7 @@ const GridElement = (props) => {
         
         return (
             <div className='container' id={id}>
-                <img src={value.background} alt=""/>
+                <img src={value.background} alt=""  />
                 <div className="centered">
                     <h1 className="title" >{value.title}</h1>
                     { type === 'ImageBox' ? 

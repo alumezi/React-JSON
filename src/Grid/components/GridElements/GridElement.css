@@ -5,12 +5,16 @@
     padding: 7px;
     line-height: 5px;
     z-index: 1;
+    min-width: 300px;
+    min-height: 300px;
 }
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 30%;
+}
+.title{
+    line-height: 20px;
 }
 
 .button:link, .button:visited {
@@ -32,3 +36,7 @@
     position: relative;
     bottom: 83px;
 }
+#back{
+
+}
+

@@ -17,15 +17,15 @@ class App extends Component {
   }
 
   openOverlay(displayId){
-    this.setState({displayId : displayId, displayOverlay : 'block'})
+    this.setState({displayId : displayId, displayOverlay : 'block'});
   }
 
   closeOverlay(){
-    this.setState({displayOverlay : 'none'})
+    this.setState({displayOverlay : 'none'});
   }
   
   toggleOverlay(displayId){
-    this.setState({displayId})
+    this.setState({displayId});
   }
 
 
