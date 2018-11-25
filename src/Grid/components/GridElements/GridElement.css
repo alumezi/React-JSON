@@ -1,42 +1,32 @@
-.container{
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 7px;
-    line-height: 5px;
-    z-index: 1;
-    min-width: 300px;
-    min-height: 300px;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  line-height: 5px;
+  z-index: 1;
 }
 .centered {
-    position: absolute;
-    top: 30%;
-    left: 30%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
 }
-.title{
-    line-height: 20px;
-}
-
-.button:link, .button:visited {
-    background-color: #EB0D2B;
-    color: white;
-    padding: 15px 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-.read{
-    display: flex;
-    cursor: pointer;
-}
-.read-more{
-    text-decoration-line: underline;
-}
-#spot_3{
-    position: relative;
-    bottom: 83px;
-}
-#back{
-
+.title {
+  line-height: 20px;
 }
 
+.button:link,
+.button:visited {
+  background-color: #eb0d2b;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.read {
+  display: flex;
+  cursor: pointer;
+}
+.read-more {
+  text-decoration-line: underline;
+}
