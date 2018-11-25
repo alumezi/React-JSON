@@ -7,8 +7,9 @@
 }
 .centered {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .title {
   line-height: 20px;
@@ -23,9 +24,12 @@
   text-decoration: none;
   display: inline-block;
 }
+.button {
+  min-width: 5em;
+}
 .read {
-  display: flex;
   cursor: pointer;
+  min-width: 20em;
 }
 .read-more {
   text-decoration-line: underline;
